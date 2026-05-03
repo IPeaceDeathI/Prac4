@@ -59,7 +59,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR }}
         run: |
           mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:5.5.0.6356:sonar \
-            -Dsonar.projectKey=Boiko Denis_Prac4 \
+            -Dsonar.projectKey=IPeaceDeathI_Prac4 \
             -Dsonar.organization=ipeacedeathi \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
